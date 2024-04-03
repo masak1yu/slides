@@ -22,10 +22,12 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: output
-          path: ./output
+          path: |
+            src
+            !src/**/*.md
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
+          publish_dir: ./src

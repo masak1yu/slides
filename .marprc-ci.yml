@@ -1,7 +1,7 @@
 lang: ja-JP
 allowLocalFiles: true
-theme: src/theme/slide.css
-inputDir: ./src/md
-output: ./output
+theme: theme/slide.css
+inputDir: ./src
+output: ./src
 pdf: true
 html: true
