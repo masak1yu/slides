@@ -22,9 +22,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: output
-          path: |
-            src
-            !src/**/*.md
+          path: ./src
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
