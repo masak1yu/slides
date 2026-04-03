@@ -49,7 +49,7 @@ style: |
 
 ## Do you know Ridgepole?
 
-Schemafile を書けばスキーマ管理が楽になるやつ
+Schemafile を書けばスキーマ管理が楽になるGem
 
 ```ruby
 # Schemafile
